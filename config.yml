@@ -12,8 +12,8 @@
 clusters:
   default:
     master:
-      token: ""
-      channel_id: ""
+      token: "NTM4NDg1MTc3ODk5NTQ4Njcy.YhwnHQ.9Z4x0UnREd2z0EA-cui9vfhakZw"
+      channel_id: "947391714371461184"
 
 shifts:
   - state: "active"
@@ -53,20 +53,19 @@ features:
     priority: false
 
   custom_commands:
-  - value: "pls work mod"
+  - value: "pls work"
   auto_buy:
     fishing_pole: true
     hunting_rifle: true
     laptop: true
     shovel: true
   auto_sell:
-    enable: false
+    enable: true
     items:
       - "boar"
       - "dragon"
       - "duck"
       - "fish"
-      - "deer"
       - "rabbit"
       - "skunk"
   auto_gift:
@@ -80,7 +79,7 @@ features:
     minimum_balance: 5000000
   auto_blackjack:
     enable: true
-    amount: 50
+    amount: 1500
     pause_below_balance: 100
     pause_above_balance: 50000000
     logic_table:
@@ -355,7 +354,7 @@ features:
         soft19: "s"
         soft20: "s"
   auto_tidepod:
-    enable: false
+    enable: true
     buy_lifesaver_on_death: true
   balance_check:
     enable: true
